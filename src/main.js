@@ -1,8 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import "./plugins/axios";
+import App from "./App.vue";
+import router from "./router";
+import "./assets/tailwind.css";
+import './plugins/axios'; // Import the Axios plugin
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  render: (h) => h(App),
+}).$mount("#app");
