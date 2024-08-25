@@ -2,7 +2,7 @@
   <div class="home">
     <div class="container mx-auto my-12 text-left">
       <div class="formContainer my-12">
-        <form action="" method="POST">
+        <form>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
               <div class="form-group">
